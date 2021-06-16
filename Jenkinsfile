@@ -9,7 +9,7 @@ pipeline{
              echo "Deploy to Dev Server" 
          }
       }
-      stage("Deploy to UAT){
+      stage("Deploy to UAT"){
          when{
             branch "release"
          }
